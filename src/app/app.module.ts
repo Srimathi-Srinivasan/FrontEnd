@@ -18,6 +18,8 @@ import { UserLoginComponent } from './user/user-login/user-login.component';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
 import {TabsModule} from 'ngx-bootstrap/tabs';
 import {ButtonsModule} from 'ngx-bootstrap/buttons'
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import {ButtonsModule} from 'ngx-bootstrap/buttons'
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    NgxGalleryModule
   ],
 
   providers: [
